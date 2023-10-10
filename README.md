@@ -20,15 +20,15 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Lynne Wang</o:LastAuthor>
   <o:Revision>2</o:Revision>
-  <o:TotalTime>68</o:TotalTime>
-  <o:Created>2023-10-04T06:14:00Z</o:Created>
-  <o:LastSaved>2023-10-04T06:14:00Z</o:LastSaved>
-  <o:Pages>6</o:Pages>
-  <o:Words>867</o:Words>
-  <o:Characters>4677</o:Characters>
-  <o:Lines>75</o:Lines>
-  <o:Paragraphs>33</o:Paragraphs>
-  <o:CharactersWithSpaces>5511</o:CharactersWithSpaces>
+  <o:TotalTime>26</o:TotalTime>
+  <o:Created>2023-10-10T03:08:00Z</o:Created>
+  <o:LastSaved>2023-10-10T03:08:00Z</o:LastSaved>
+  <o:Pages>12</o:Pages>
+  <o:Words>890</o:Words>
+  <o:Characters>4673</o:Characters>
+  <o:Lines>88</o:Lines>
+  <o:Paragraphs>31</o:Paragraphs>
+  <o:CharactersWithSpaces>5532</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:CustomDocumentProperties>
@@ -70,6 +70,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
    <w:__Grammarly_42____i>H4sIAAAAAAAEAKtWckksSQxILCpxzi/NK1GyMqwFAAEhoTITAAAA</w:__Grammarly_42____i>
    <w:__Grammarly_42___1>H4sIAAAAAAAEAKtWcslP9kxRslIyNDY2MbAwszQ2tDAxtQQiYyUdpeDU4uLM/DyQAqNaAA1yl4IsAAAA</w:__Grammarly_42___1>
   </w:DocumentVariables>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"/>
    <m:brkBin m:val="before"/>
@@ -678,34 +679,38 @@ xmlns="http://www.w3.org/TR/REC-html40">
 
 <div class=WordSection1>
 
-<p class=MsoNormal style='text-align:justify'><b>Overall Dataset<o:p></o:p></b></p>
+<div>
 
-<p class=MsoNormal style='text-align:justify'>This dataset, sourced from the
-UCI Machine Learning repository, revolves around a survey conducted on Amazon
-Mechanical Turk, focusing on driving scenarios and coupon acceptance. The
-scenarios are described based on various parameters such as the destination,
-the current time, prevailing weather conditions, and the presence of a
-passenger, among others. Participants were posed with the query of whether
-they'd accept a coupon under the given circumstances, were they the driver.
-Positive responses indicating an intention to use the coupon either immediately
-or later, before its expiration, are designated with the label 'Y = 1'. On the
-contrary, outright refusals to accept the coupon are marked as 'Y = 0'. The
-dataset further categorizes the coupons into five distinct types based on the
-nature of the establishments: inexpensive restaurants (costing under $20),
-coffee houses, carry out &amp; take away establishments, bars, and pricier
-restaurants with expenses ranging from $20 to $50.</p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><b>Overall Dataset<o:p></o:p></b></p>
 
-<p class=MsoNormal style='text-align:justify'>The bar plot below indicates that
-the dataset includes some missing data in columns  Bar ,
- RestaurantLessThan20 ,  <span class=SpellE>CarrayAway</span> ,  Restaurant 20To50 ,
- Coffeehouse , and  car.  In particular, the column  car  is <span class=GramE>near</span>
-empty. Thus, data in this column is difficult to use. For the missing data in
-the  bar  column, I simply fill them with  never . </p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'>This dataset, sourced from the UCI Machine Learning
+repository, revolves around a survey conducted on Amazon Mechanical Turk,
+focusing on driving scenarios and coupon acceptance. The scenarios are
+described based on various parameters such as the destination, the current
+time, prevailing weather conditions, and the presence of a passenger, among
+others. Participants were posed with the query of whether they'd accept a
+coupon under the given circumstances, were they the driver. Positive responses
+indicating an intention to use the coupon either immediately or later, before
+its expiration, are designated with the label 'Y = 1'. On the contrary,
+outright refusals to accept the coupon are marked as 'Y = 0'. The dataset
+further categorizes the coupons into five distinct types based on the nature of
+the establishments: inexpensive restaurants (costing under $20), coffee houses,
+carry out &amp; take away establishments, bars, and pricier restaurants with
+expenses ranging from $20 to $50.</p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
-style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
- coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
- filled="f" stroked="f">
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'>The bar plot below indicates that the dataset includes some
+missing data in columns Bar , RestaurantLessThan20 , <span class=spelle>CarrayAway</span>
+, Restaurant 20To50 , Coffeehouse , and car. In particular, the column car is <span
+class=grame>near</span> empty. Thus, data in this column is difficult to use.
+For the missing data in the bar column, I simply fill them with never . </p>
+
+<p class=MsoNormal align=center style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:center'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
  <v:stroke joinstyle="miter"/>
  <v:formulas>
   <v:f eqn="if lineDrawn pixelLineWidth 0"/>
@@ -723,186 +728,260 @@ style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
  </v:formulas>
  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
  <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1031" type="#_x0000_t75"
- alt="A graph with numbers and a bar&#10;&#10;Description automatically generated"
- style='width:410.5pt;height:402pt;visibility:visible;mso-wrap-style:square'>
+</v:shapetype><v:shape id="_x0000_i1036" type="#_x0000_t75" alt="A graph with numbers and a bar&#10;&#10;Description automatically generated"
+ style='width:410.25pt;height:402pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="README_files/image001.png" o:title="A graph with numbers and a bar&#10;&#10;Description automatically generated"/>
 </v:shape><![endif]--><![if !vml]><img width=547 height=536
 src="README_files/image001.png"
 alt="A graph with numbers and a bar&#10;&#10;Description automatically generated"
-v:shapes="Picture_x0020_1"><![endif]></span></p>
+v:shapes="_x0000_i1036"><![endif]></span></p>
 
-<p class=MsoNormal style='text-align:justify'>The dataset includes 12684 rows
-of data, among which 7210 chose to accept the coupon. The overall acceptance
-rate is 57%. The histogram plot below shows the count of drivers who received
-various types of coupons, and the respective percentages of those who either
-accepted or declined these offers. </p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'>The dataset includes 12684 rows of data, among which 7210
+chose to accept the coupon. The overall acceptance rate is 57%. The histogram
+plot below shows the count of drivers who received various types of coupons,
+and the respective percentages of those who either accepted or declined these
+offers. </p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
-style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_2"
- o:spid="_x0000_i1030" type="#_x0000_t75" alt="A graph of different colored squares&#10;&#10;Description automatically generated"
- style='width:404pt;height:222pt;visibility:visible;mso-wrap-style:square'>
+<p class=MsoNormal align=center style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:center'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1035" type="#_x0000_t75" alt="A graph of different colored squares&#10;&#10;Description automatically generated"
+ style='width:404.25pt;height:222pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="README_files/image002.png" o:title="A graph of different colored squares&#10;&#10;Description automatically generated"/>
 </v:shape><![endif]--><![if !vml]><img width=539 height=296
 src="README_files/image003.png"
 alt="A graph of different colored squares&#10;&#10;Description automatically generated"
-v:shapes="Picture_x0020_2"><![endif]></span></p>
+v:shapes="_x0000_i1035"><![endif]></span></p>
 
-<p class=MsoNormal style='text-align:justify'>The plot below shows the
-temperatures at the time coupons were provided to drivers. A significant
-majority of the coupons were dispensed when the temperature exceeded 80
-degrees. Interestingly, the acceptance rate appears higher at both the warmer
-temperatures (above 80 degrees) and colder temperatures (below 40 degrees)
-compared to the moderate range of 40   60 degrees.</p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'>The plot below shows the temperatures at the time coupons
+were provided to drivers. A significant majority of the coupons were dispensed
+when the temperature exceeded 80 degrees. Interestingly, the acceptance rate
+appears higher at both the warmer temperatures (above 80 degrees) and colder
+temperatures (below 40 degrees) compared to the moderate range of 40 60
+degrees.</p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
-style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_7"
- o:spid="_x0000_i1029" type="#_x0000_t75" alt="A graph with different colored squares&#10;&#10;Description automatically generated"
+<p class=MsoNormal align=center style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:center'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1034" type="#_x0000_t75" alt="A graph with different colored squares&#10;&#10;Description automatically generated"
  style='width:328.5pt;height:295.5pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="README_files/image004.png" o:title="A graph with different colored squares&#10;&#10;Description automatically generated"/>
 </v:shape><![endif]--><![if !vml]><img width=438 height=394
 src="README_files/image005.png"
 alt="A graph with different colored squares&#10;&#10;Description automatically generated"
+v:shapes="_x0000_i1034"><![endif]></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><b>Investigation of bar coupons<o:p></o:p></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'>2017 drivers received a bar coupon, and 827 of them
+accepted the coupon, resulting in an overall acceptance rate of 41%. When
+dissected based on the frequency of bar visits, those visiting up to 3 times a
+month have an acceptance rate of 37% (500 out of 1,263), while the rate jumps
+to 76% (153 out of 199) for those visiting more often. In terms of drivers'
+acceptance rates based on their bar visits, passengers, and occupations, it's
+71% (393 out of 551) for drivers visiting bars more than once a month and
+having adult passengers not engaged in farming, fishing, or forestry, compared
+to 29% (434 out of 1,466) for other drivers. This 71% acceptance rate remains
+consistent for drivers visiting bars more than once a month with adult
+passengers who are not widowed. Younger drivers, specifically those under 30
+who visit bars more than once a month, have a higher acceptance rate of 73% (245
+out of 335). Lastly, drivers who frequent cheap restaurants over 4 times a
+month and earn below 50K have a 46% (124 out of 271) acceptance rate.</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'>Based on the data analysis, the following hypotheses can be
+generated:</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><u>1. Frequency of Bar Visits<o:p></o:p></u></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_1" o:spid="_x0000_i1033" type="#_x0000_t75" alt="A graph with red and blue squares&#10;&#10;Description automatically generated"
+ style='width:458.25pt;height:393.75pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="README_files/image006.png" o:title="A graph with red and blue squares&#10;&#10;Description automatically generated"/>
+</v:shape><![endif]--><![if !vml]><img width=611 height=525
+src="README_files/image006.png"
+alt="A graph with red and blue squares&#10;&#10;Description automatically generated"
+v:shapes="Picture_x0020_1"><![endif]></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'>There seems to be a direct correlation between the
+frequency of bar visits and acceptance rates. Individuals who visit bars more
+often are more likely to accept certain offers or participate in certain
+activities than those who visit less frequently.</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><u>2. Age as a Factor<o:p></o:p></u></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_2" o:spid="_x0000_i1032" type="#_x0000_t75" alt="A graph of different colored bars&#10;&#10;Description automatically generated with medium confidence"
+ style='width:458.25pt;height:393.75pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="README_files/image007.png" o:title="A graph of different colored bars&#10;&#10;Description automatically generated with medium confidence"/>
+</v:shape><![endif]--><![if !vml]><img width=611 height=525
+src="README_files/image007.png"
+alt="A graph of different colored bars&#10;&#10;Description automatically generated with medium confidence"
+v:shapes="Picture_x0020_2"><![endif]></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'>Younger drivers, particularly those under 30, seem to be
+more inclined to accept offers or partake in activities associated with bar
+visits than their older counterparts. This could indicate that the offers or
+activities cater more to the preferences of a younger demographic.</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><u>3. Passengers<o:p></o:p></u></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><span class=grame>The acceptance rate of bar coupons seems
+to vary depending on the type of passengers. Specifically, the presence of
+children as passengers tends to reduce the probability of accepting bar
+coupons. Conversely, when traveling solo, the probability of accepting these
+coupons is at its peak.</span><u><o:p></o:p></u></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1031" type="#_x0000_t75" alt="A graph of different colored squares&#10;&#10;Description automatically generated"
+ style='width:458.25pt;height:393.75pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="README_files/image008.png" o:title="A graph of different colored squares&#10;&#10;Description automatically generated"/>
+</v:shape><![endif]--><![if !vml]><img width=611 height=525
+src="README_files/image008.png"
+alt="A graph of different colored squares&#10;&#10;Description automatically generated"
+v:shapes="_x0000_i1031"><![endif]></span><span class=grame><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><u>5. Marital Status<o:p></o:p></u></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><span class=GramE>The marital</span> status among the
+non-widowed, might play a role in the likelihood of accepting certain offers
+during frequent bar visits. Specifically, those with an unmarried partner
+status seem most likely to accept bar coupons, followed by those with a married
+partner status. Individuals who are single come next, with the divorced being
+the least likely to accept them.</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_6" o:spid="_x0000_i1030" type="#_x0000_t75" alt="A graph with red and blue squares&#10;&#10;Description automatically generated"
+ style='width:458.25pt;height:393.75pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="README_files/image009.png" o:title="A graph with red and blue squares&#10;&#10;Description automatically generated"/>
+</v:shape><![endif]--><![if !vml]><img width=611 height=525
+src="README_files/image009.png"
+alt="A graph with red and blue squares&#10;&#10;Description automatically generated"
+v:shapes="Picture_x0020_6"><![endif]></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><u>5. General Behavior Pattern<o:p></o:p></u></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'>There's a pattern indicating that individuals with more
+frequent outings, whether to bars or restaurants, might be more socially active
+or open to certain offers than those with fewer outings.</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_7" o:spid="_x0000_i1029" type="#_x0000_t75" alt="A graph with red and blue squares&#10;&#10;Description automatically generated"
+ style='width:458.25pt;height:393.75pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="README_files/image006.png" o:title="A graph with red and blue squares&#10;&#10;Description automatically generated"/>
+</v:shape><![endif]--><![if !vml]><img width=611 height=525
+src="README_files/image006.png"
+alt="A graph with red and blue squares&#10;&#10;Description automatically generated"
 v:shapes="Picture_x0020_7"><![endif]></span></p>
 
-<p class=MsoNormal style='text-align:justify'><b>Investigation of bar coupons<o:p></o:p></b></p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><b><o:p>&nbsp;</o:p></b></p>
 
-<p class=MsoNormal style='text-align:justify'>2017 drivers received a bar
-coupon, and 827 of them accepted the coupon, resulting in an overall acceptance
-rate of 41%. When dissected based on the frequency of bar visits, those
-visiting up to 3 times a month have an acceptance rate of 37% (500 out of
-1,263), while the rate jumps to 76% (153 out of 199) for those visiting more
-often. In terms of drivers' acceptance rates based on their bar visits,
-passengers, and occupations, it's 71% (393 out of 551) for drivers visiting bars
-more than once a month and having adult passengers not engaged in farming,
-fishing, or forestry, compared to 29% (434 out of 1,466) for other drivers.
-This 71% acceptance rate remains consistent for drivers visiting bars more than
-once a month with adult passengers who are not widowed. Younger drivers,
-specifically those under 30 who visit bars more than once a month, have a
-higher acceptance rate of 73% (245 out of 335). Lastly, drivers who frequent
-cheap restaurants over 4 times a month and earn below 50K have a 46% (124 out
-of 271) acceptance rate.</p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><b>Additional investigation of bar coupons based on <span
+class=GramE>Occupations</span><o:p></o:p></b></p>
 
-<p class=MsoNormal style='text-align:justify'>Based on the data analysis, the
-following hypotheses can be generated:</p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'>Based on <span class=GramE>below</span> histogram plot, the
+occupation of a driver's passengers appears to influence acceptance rates. Students
+appear to have the highest acceptance rate, sales and related occupations and
+business &amp; financial occupations have the next highest acceptance rates, and
+computer and mathematical occupations have the next highest acceptance rate. </p>
 
-<p class=MsoNormal style='text-align:justify'><u>1. Frequency of Bar Visits<o:p></o:p></u></p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1028" type="#_x0000_t75" alt="A graph of different colored and red bars&#10;&#10;Description automatically generated with medium confidence"
+ style='width:458.25pt;height:393.75pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="README_files/image010.png" o:title="A graph of different colored and red bars&#10;&#10;Description automatically generated with medium confidence"/>
+</v:shape><![endif]--><![if !vml]><img width=611 height=525
+src="README_files/image010.png"
+alt="A graph of different colored and red bars&#10;&#10;Description automatically generated with medium confidence"
+v:shapes="_x0000_i1028"><![endif]></span><o:p></o:p></p>
 
-<p class=MsoNormal style='text-align:justify'>There seems to be a direct
-correlation between the frequency of bar visits and acceptance rates.
-Individuals who visit bars more often are more likely to accept certain offers
-or participate in certain activities than those who visit less frequently.<o:p></o:p></p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><b><o:p>&nbsp;</o:p></b></p>
 
-<p class=MsoNormal style='text-align:justify'><u>2. Occupation's Influence<o:p></o:p></u></p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><b>Additional investigation of bar coupons based on <span
+class=GramE><span class=grame>age</span></span><o:p></o:p></b></p>
 
-<p class=MsoNormal style='text-align:justify'>The occupation of a driver's
-passengers appears to influence acceptance rates. It's possible that certain
-occupations, specifically outside of farming, fishing, and forestry, might have
-lifestyle preferences or habits that align more closely with frequent bar
-visits and the associated offers.<o:p></o:p></p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'>Based on the below histogram, younger adults, those just
+over 21, are particularly inclined to accept these coupons.</p>
 
-<p class=MsoNormal style='text-align:justify'><u>3. Marital Status and Bar
-Visits<o:p></o:p></u></p>
-
-<p class=MsoNormal style='text-align:justify'><span class=GramE>The marital</span>
-status, specifically being non-widowed, might play a role in the likelihood of
-accepting certain offers during frequent bar visits. This could suggest that
-social settings or the nature of the offers are more appealing to those not
-experiencing recent bereavement.<o:p></o:p></p>
-
-<p class=MsoNormal style='text-align:justify'><u>4. Age as a Factor<o:p></o:p></u></p>
-
-<p class=MsoNormal style='text-align:justify'>Younger drivers, particularly
-those under 30, seem to be more inclined to accept offers or partake in
-activities associated with bar visits than their older counterparts. This could
-indicate that the offers or activities cater more to the preferences of a
-younger demographic.<o:p></o:p></p>
-
-<p class=MsoNormal style='text-align:justify'><u>5. Economic Considerations<o:p></o:p></u></p>
-
-<p class=MsoNormal style='text-align:justify'>Drivers with a certain economic
-profile, specifically those earning below 50K and frequenting cheaper dining
-options, have distinctive acceptance rates. This might imply that economic
-constraints or preferences influence the decision-making process of these
-drivers.<o:p></o:p></p>
-
-<p class=MsoNormal style='text-align:justify'><u>6. General Behavior Pattern<o:p></o:p></u></p>
-
-<p class=MsoNormal style='text-align:justify'>There's a pattern indicating that
-individuals with more frequent outings, whether to bars or restaurants, might
-be more socially active or open to certain offers than those with fewer
-outings.</p>
-
-<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
-
-<p class=MsoNormal style='text-align:justify'><b>Additional investigation of
-bar coupons based on <span class=GramE>age</span><o:p></o:p></b></p>
-
-<p class=MsoNormal style='text-align:justify'>Based on the below histogram, younger
-adults, those just over 21, are particularly inclined to accept these coupons.</p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_3"
- o:spid="_x0000_i1028" type="#_x0000_t75" alt="A graph of different colored bars&#10;&#10;Description automatically generated with medium confidence"
- style='width:395.5pt;height:356.5pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="README_files/image006.png" o:title="A graph of different colored bars&#10;&#10;Description automatically generated with medium confidence"/>
+<p class=MsoNormal align=center style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:center'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_3" o:spid="_x0000_i1027" type="#_x0000_t75" alt="A graph of different colored bars&#10;&#10;Description automatically generated with medium confidence"
+ style='width:395.25pt;height:356.25pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="README_files/image011.png" o:title="A graph of different colored bars&#10;&#10;Description automatically generated with medium confidence"/>
 </v:shape><![endif]--><![if !vml]><img width=527 height=475
-src="README_files/image007.png"
+src="README_files/image012.png"
 alt="A graph of different colored bars&#10;&#10;Description automatically generated with medium confidence"
 v:shapes="Picture_x0020_3"><![endif]></span></p>
 
-<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal style='text-align:justify'><b>Additional investigation of bar
-coupons based on <span class=GramE>weather</span><o:p></o:p></b></p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><b>Additional investigation of bar coupons based on <span
+class=grame>weather</span><o:p></o:p></b></p>
 
-<p class=MsoNormal style='text-align:justify'>Based on the below histogram, drivers
-tend to accept coupons more frequently on sunny days. </p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'>Based on the below histogram, drivers tend to accept
+coupons more frequently on sunny days. </p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
-style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_4"
- o:spid="_x0000_i1027" type="#_x0000_t75" alt="A graph with different colored squares&#10;&#10;Description automatically generated"
+<p class=MsoNormal align=center style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:center'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_4" o:spid="_x0000_i1026" type="#_x0000_t75" alt="A graph with different colored squares&#10;&#10;Description automatically generated"
  style='width:285pt;height:256.5pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="README_files/image008.png" o:title="A graph with different colored squares&#10;&#10;Description automatically generated"/>
+ <v:imagedata src="README_files/image013.png" o:title="A graph with different colored squares&#10;&#10;Description automatically generated"/>
 </v:shape><![endif]--><![if !vml]><img width=380 height=342
-src="README_files/image009.png"
+src="README_files/image014.png"
 alt="A graph with different colored squares&#10;&#10;Description automatically generated"
 v:shapes="Picture_x0020_4"><![endif]></span></p>
 
-<p class=MsoNormal style='text-align:justify'><b>Additional investigation of
-bar coupons based on <span class=GramE>time</span><o:p></o:p></b></p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><b>Additional investigation of bar coupons based on <span
+class=grame>time</span><o:p></o:p></b></p>
 
-<p class=MsoNormal style='text-align:justify'>Based on the below histogram, the
-acceptance rate increases around 6pm, which is typically dinner time.</p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'>Based on the below histogram, the acceptance rate increases
+around 6pm, which is typically dinner time.</p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
-style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_5"
- o:spid="_x0000_i1026" type="#_x0000_t75" alt="A graph of different colored squares&#10;&#10;Description automatically generated"
+<p class=MsoNormal align=center style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:center'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_5" o:spid="_x0000_i1025" type="#_x0000_t75" alt="A graph of different colored squares&#10;&#10;Description automatically generated"
  style='width:318pt;height:286.5pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="README_files/image010.png" o:title="A graph of different colored squares&#10;&#10;Description automatically generated"/>
+ <v:imagedata src="README_files/image015.png" o:title="A graph of different colored squares&#10;&#10;Description automatically generated"/>
 </v:shape><![endif]--><![if !vml]><img width=424 height=382
-src="README_files/image011.png"
+src="README_files/image016.png"
 alt="A graph of different colored squares&#10;&#10;Description automatically generated"
 v:shapes="Picture_x0020_5"><![endif]></span></p>
 
-<p class=MsoNormal style='text-align:justify'><b>Additional investigation of
-bar coupons based on marital <span class=GramE>status</span><o:p></o:p></b></p>
+<p class=MsoNormal align=center style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:center'><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal style='text-align:justify'>Based on <span class=GramE>below
-histogram</span>, single individuals have a higher likelihood of accepting bar
-coupons.</p>
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify'><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
-style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_6"
- o:spid="_x0000_i1025" type="#_x0000_t75" alt="A graph of different colored squares&#10;&#10;Description automatically generated"
- style='width:355.5pt;height:320pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="README_files/image012.png" o:title="A graph of different colored squares&#10;&#10;Description automatically generated"/>
-</v:shape><![endif]--><![if !vml]><img width=474 height=427
-src="README_files/image013.png"
-alt="A graph of different colored squares&#10;&#10;Description automatically generated"
-v:shapes="Picture_x0020_6"><![endif]></span></p>
-
-<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+</div>
 
 </div>
 
